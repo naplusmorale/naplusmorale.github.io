@@ -1,0 +1,1177 @@
+/* line 1, C:/Users/stuka/Desktop/Uber/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 5, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+/* line 12, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 15, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 22, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* line 28, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 31, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 34, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+/* line 42, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 47, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 54, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subheader .subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 61, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+  text-decoration: none;
+}
+
+/* line 72, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 88, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/1.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 93, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.promo .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 102, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 112, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.promo .promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 120, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 137, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 139, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 145, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 155, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.reasons_descr {
+  width: 343px;
+}
+
+/* line 158, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.reasons_descr_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 164, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.reasons_descr_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 170, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 183, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 187, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 197, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.title_white {
+  color: #fff;
+}
+
+/* line 200, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subtitle {
+  position: relative;
+  margin-top: 19px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #222;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 208, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.subtitle_white {
+  color: #fff;
+}
+
+/* line 211, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bg/2.jpg") center center/cover no-repeat;
+}
+
+/* line 215, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 217, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 224, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/application/application 1.jpg") center center/cover no-repeat;
+}
+
+/* line 226, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/application/application 2.jpg") center center/cover no-repeat;
+}
+
+/* line 228, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/application/application 3.jpg") center center/cover no-repeat;
+}
+
+/* line 230, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/application/application 4.jpg") center center/cover no-repeat;
+}
+
+/* line 232, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/application/application 5.jpg") center center/cover no-repeat;
+}
+
+/* line 234, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/application/application 6.jpg") center center/cover no-repeat;
+}
+
+/* line 236, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 243, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 259, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../img/bg/2.jpg") center center/cover no-repeat;
+}
+
+/* line 264, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.choice_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 269, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.choice_descr {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  color: #222;
+}
+
+/* line 275, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 499px;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 284, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 286, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 288, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 290, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* line 294, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 298, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 304, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/blue.png") center center/cover no-repeat;
+}
+
+/* line 313, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require_descr {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+
+/* line 320, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 324, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url("../icons/red.png") center center/cover no-repeat;
+}
+
+/* line 327, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.world {
+  position: relative;
+  min-height: 717px;
+  padding: 49px 0;
+  background: url(../img/bg/finish.jpg) center center/cover no-repeat;
+}
+
+/* line 332, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.world_link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 49px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #1fbad6;
+  text-decoration: none;
+}
+
+/* line 344, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.world_link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 348, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 351, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 354, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer {
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 355, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+}
+
+/* line 360, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+}
+
+/* line 365, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 367, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 370, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 374, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 383, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_social_item img {
+  color: #fff;
+}
+
+/* line 385, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_links {
+  margin: 0 auto;
+  width: 390px;
+}
+
+/* line 388, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 392, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 398, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 402, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 408, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 418, C:/Users/stuka/Desktop/Uber/src/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_header {
+    font-stretch: 50px;
+  }
+  /* line 11, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 13, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+  }
+  /* line 16, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+  }
+  /* line 18, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  /* line 20, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice {
+    padding: 55px 0;
+    min-height: 840px;
+  }
+  /* line 24, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require br {
+    display: none;
+  }
+  /* line 27, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  /* line 29, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  /* line 31, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 35, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_mobile {
+    display: flex;
+  }
+  /* line 37, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_mobile a {
+    margin: 0 3px;
+  }
+  /* line 39, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_mobile a img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 42, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .title {
+    font-size: 28px;
+  }
+  /* line 45, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 47, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 51, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 53, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 55, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 57, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 62, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 64, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 67, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 70, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_round {
+    margin-right: 0;
+  }
+  /* line 72, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 75, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice {
+    min-height: 800px;
+  }
+  /* line 77, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice_img {
+    width: 100%;
+  }
+  /* line 79, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .world {
+    min-height: 650px;
+  }
+  /* line 82, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  /* line 84, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  /* line 89, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%;
+  }
+  /* line 91, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 95, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px s15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 107, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 109, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 113, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 115, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 123, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 131, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 133, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 135, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 137, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 139, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 141, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 144, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 152, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 159, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+  /* line 161, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons {
+    padding: 40px 0;
+  }
+  /* line 163, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_descr {
+    width: 350px;
+  }
+  /* line 165, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_subtitle {
+    text-align: center;
+  }
+  /* line 167, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_text {
+    margin-top: 10px;
+  }
+  /* line 169, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile {
+    padding: 40px 0;
+  }
+  /* line 171, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice {
+    min-height: 600px;
+    padding: 40px 0;
+  }
+  /* line 174, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require {
+    padding: 40px 0;
+  }
+  /* line 176, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .world {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 179, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 181, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 183, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 187, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 11px;
+  }
+  /* line 191, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 194, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 196, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 198, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 203, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 9px;
+    margin-top: 6px;
+  }
+  /* line 208, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .subheader_btn:hover {
+    background-image: linear-gradient(to top, #fff 0%, #4ce2ff 100%);
+  }
+  /* line 210, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 213, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 215, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 219, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 224, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+    font-size: 16px;
+  }
+  /* line 229, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .promo_btn:hover {
+    background-image: linear-gradient(to top, #fff 0%, #4ce2ff 100%);
+  }
+  /* line 231, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 233, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 237, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 242, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  /* line 244, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  /* line 246, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 248, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 250, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 253, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 256, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+    text-align: left;
+  }
+  /* line 259, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .reasons_text {
+    margin-top: 0;
+  }
+  /* line 261, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile {
+    padding: 20px 0 40px 0;
+  }
+  /* line 263, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile .row {
+    margin-top: 30px;
+  }
+  /* line 265, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile_item {
+    height: 254px;
+    padding: 81px 40px 0 40px;
+  }
+  /* line 268, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  /* line 271, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile_item_plus {
+    bottom: 28px;
+  }
+  /* line 274, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+    background-color: #fff;
+  }
+  /* line 276, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice {
+    padding: 25px 0 33px 0;
+    min-height: 390px;
+    background: #000;
+  }
+  /* line 280, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice_img {
+    margin-top: 35px;
+  }
+  /* line 282, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice_descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  /* line 288, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .choice .black {
+    display: none;
+  }
+  /* line 290, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .hidden-320 {
+    display: none;
+  }
+  /* line 292, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require {
+    padding: 25px;
+  }
+  /* line 294, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require_block {
+    margin: 30px 0 0 0;
+  }
+  /* line 296, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+  }
+  /* line 298, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require_list {
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+  /* line 301, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 20px;
+  }
+  /* line 305, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  /* line 308, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .world {
+    min-height: 360px;
+    padding: 25px 0 30px 0;
+  }
+  /* line 311, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .world_link {
+    width: 200px;
+    display: block;
+    bottom: 30px;
+    line-height: 15px;
+  }
+  /* line 316, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  footer {
+    padding: 25px 0 20px 0;
+  }
+  /* line 319, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_divider {
+    width: 253px;
+    margin: 0 auto;
+  }
+  /* line 322, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper {
+    padding-top: 22px;
+  }
+  /* line 324, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div {
+    margin-bottom: 20px;
+  }
+  /* line 326, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  /* line 328, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  /* line 330, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+  }
+  /* line 332, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_links {
+    width: 290px;
+  }
+  /* line 334, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_links_main {
+    padding: 0;
+    font-size: 14px;
+  }
+  /* line 337, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_links_sub {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 340, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_links_sub a {
+    margin: 0 7px;
+  }
+  /* line 342, C:/Users/stuka/Desktop/Uber/src/sass/_media.sass */
+  .footer_links_lang {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
